@@ -407,7 +407,9 @@ except ProfileNotFoundError:
 
 ## License
 
-Apache License 2.0 - see [LICENSE](LICENSE) file for details.
+GNU General Public License v3.0 - see [LICENSE](LICENSE) file for details.
+
+> **Note:** Despite this README previously stating Apache 2.0, the actual governing license is GPL-3.0 as specified in the LICENSE file.
 
 ## Contributing
 

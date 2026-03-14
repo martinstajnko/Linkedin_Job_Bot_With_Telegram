@@ -85,4 +85,9 @@ crontab -e
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project uses a dual license:
+
+- **`linkedin_jobs_notification/`** — original code by Martin Stajnko, licensed under the [MIT License](LICENSE).
+- **`linkedin_scraper/`** — derived from [joeyism/linkedin_scraper](https://github.com/joeyism/linkedin_scraper), licensed under the [GNU General Public License v3.0](linkedin_scraper/LICENSE). Modifications were made to support the latest LinkedIn UI and to integrate with this project.
+
+> **Note:** The `linkedin_scraper` README incorrectly states Apache 2.0 — the actual governing license (as confirmed by the LICENSE file and GitHub) is GPL-3.0.
