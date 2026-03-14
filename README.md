@@ -1,3 +1,11 @@
+# LinkedIn Job Bot with Telegram Notifications
+
+Description
+This project consists of two main components:
+1. `linkedin_scraper`: A Python package that provides tools to scrape LinkedIn data, including job postings, user profiles, and more. It includes features for handling authentication, managing sessions, and extracting structured data from LinkedIn pages.
+2. `linkedin_jobs_notification`: A sample application that uses the `linkedin_scraper` package to monitor LinkedIn for new job postings based on specified search criteria. It sends notifications about new jobs to a Telegram chat using a bot.
+
+
 # One-time setup (per person)
 
 ## 1. Create VENV & Install deps
