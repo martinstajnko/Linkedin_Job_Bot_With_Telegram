@@ -1,0 +1,33 @@
+# LinkedIn Jobs Notification — Configuration
+# Copy this file to config.yaml and fill in your values.
+# Secrets (bot_token, chat_id) are read from environment variables.
+# Set them in a .env file next to config.yaml (see .env.example).
+
+linkedin:
+  session_file: linkedin_session.json   # path to your saved Playwright session
+
+telegram:
+  bot_token: "${TELEGRAM_BOT_TOKEN}"    # set in .env — never hardcode here
+  chat_id: "${TELEGRAM_CHAT_ID}"        # your personal chat ID or group ID
+
+searches:
+  - name: "QA Engineer Remote"
+    keywords: "QA Engineer"
+    location: "Worldwide"
+    remote: true
+    posted_within_hours: 24
+    limit: 25
+
+  - name: "Software Developer in Test"
+    keywords: "Software Developer in Test"
+    location: "Europe"
+    remote: true
+    posted_within_hours: 24
+    limit: 25
+
+  - name: "AI QA Engineer"
+    keywords: "AI QA Engineer"
+    location: "Worldwide"
+    remote: true
+    posted_within_hours: 24
+    limit: 25

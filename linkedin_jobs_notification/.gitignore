@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets and local config — never commit these
+.env
+config.yaml
+
+# LinkedIn session files (contain auth cookies)
+*_session.json
+linkedin_session*.json
+
+# SQLite seen-jobs database
+*.db
+
